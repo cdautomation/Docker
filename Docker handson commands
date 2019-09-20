@@ -1,0 +1,121 @@
+*   sudo yum install docker -y
+*   docker --version
+*   docker info
+*   service docker start
+*   service docker status
+*   docker login
+*   cat /root/.docker/config.json
+*   cat /root/.docker/config
+*   cat /root/.docker/config.json
+*   docker
+*   clear
+*   vi /etc/ssh/sshd_config
+*   docker
+*  
+*   docker search ubuntu
+*   clear
+*   docker search ubuntu
+*   clear
+*   docker search centos
+*   docker pull ubuntu
+*   docker | grep image
+*   docker | grep images
+*   docker images
+*   docker pull centos
+*   docker | grep images
+*   docker images
+*   docker rmi centos
+*   docker images
+*   clear
+*   docker run -it ubuntu/bin/bash
+*   docker run -it ubuntu /bin/bash
+*   docker run -it centos /bin/bash
+*   docker container ls -a
+*   docker container ls -al
+*   dockerps ps -a
+*   docker ps -a
+*   docker ps
+*   docker ps -l
+*   docker ps
+*   clear
+*   docker run -td ubuntu /bin/bash
+*   docker ps
+*   docker exec e7645640acd7 /bin/bash
+*   docker exec -it e7645640acd7 /bin/bash
+*   docker ps
+*   docker commit e7645640acd7
+*   docker images
+*   docker commit e7645640acd7 ubuntu_git:latest
+*   docker images
+*   docker login
+*   docker ps
+*   docker images
+*   docker --version
+*   docker info
+*   docker
+*   clear
+*   docker images
+*   docker ps
+*   docker run -it Linux /bin/bash
+*   hostname
+*   docker pull linux
+*   docker login
+*   docker pull linux
+*   doccker searh linux
+*   doccker search linux
+*   docker search linux
+*   docker pull linux
+*   docker login
+*   service docker start
+*   service docker status
+*   docker ps -a
+*   docker ps
+*   docker start --help
+*   clear
+*   docker ps -a
+*   docker start e7645640acd7
+*   docker ps -a
+*   docker ps
+*   docker stop e7645640acd7
+*   docker ps -a
+*   docker ps
+*   docker start e7645640acd7
+*   docker ps
+*   clear
+*   docker run -it centos /bin/bash
+*   docker search linux
+*   docker images
+*   clear
+*   docker ps -a
+*   docker exec -it d2f17e1b33a9 /bin/bash
+*   docker start d2f17e1b33a9
+*   docker exec -it d2f17e1b33a9 /bin/bash
+*   docker ps
+*   docker commit d2f17e1b33a9 centOS_git:latest
+*   docker commit d2f17e1b33a9 centos_git:latest
+*   docker ps
+*   docker ps -a
+*   docker list
+*   docker ps
+*   docker ps -a
+*   exit
+*   clear
+*   service docker start
+*   service httpd start
+*   docker ps -al
+*   docker images
+*   docker volume ls
+*   docker volume --help
+*   docker run -td --name=container1 -p 8091:8080 -v /home/ec2-user/www:/var/www/html tomcat /bin/bash
+*   docker ps
+*   docker volume ls
+*   cd www/
+*   ls
+*   cat index.html
+*   cd ..
+*   docker exec -it container1 /bin/bash
+*   cd www/
+*   ls
+*   docker run -td --name=container2 -p 8092:8080 --volumes-from container1 --privileged=true tomcat /bin/bash
+*   docker ps
+*   docker exec -it container2 /bin/bash
